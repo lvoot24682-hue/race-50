@@ -24,10 +24,10 @@ const settings = {
     trigger: "Your animal is back to full energy!",
 
     // الأمر الذي سيتم إرساله إلى gateB
-    action: "!س جلد خاص 80055399",
+    action: "!س جلد خاص 51660277 ",
 
     // معرف حساب البوت الحالي
-    myId: "80055399"
+    myId: "51660277"
 };
 
 // ============================================================
@@ -239,7 +239,7 @@ async function connectUsingChromeProfile(
 
     // الحالة = Invisible
     service.config.framework.login.onlineState =
-        OnlineState.INVISIBLE;
+        OnlineState.BUSY;
 
     if (appCheckToken) {
 
