@@ -706,7 +706,7 @@ async function initializeTasks() {
     try {
 
         await service.setOnlineState(
-            OnlineState.INVISIBLE
+            OnlineState.BUSY
         );
 
         console.log(
